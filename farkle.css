@@ -1,0 +1,120 @@
+img {
+	width:80px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+	background-color: #fff;
+	background-image: linear-gradient(rgb(0, 10, 60), rgb(0, 10, 20));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+	font-family: arial;
+}
+
+#container {
+    border-radius: 1em;
+    background-color: rgb(0, 110, 160);
+    margin-top: 10vh;
+    width: 50vw;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: auto;
+	width: max-content;
+}
+
+.header {
+	height: 100px;
+	max-height: 100%;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	font-family: arial;
+	color: #fff;
+}
+
+.dice {
+	max-width: 520px;
+	margin:0 auto;
+}
+
+.score {
+	background-color: rgba(45, 45, 60, 0.7);
+	color: #fff;
+	height: 60px;
+	max-height: 100%;
+	font-size: 32px;
+	text-align: center;
+	line-height: 60px;
+	width: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    border-radius: .2em;
+}
+
+.button {
+  background-color: rgb(0, 140, 90);
+  color: white;
+
+  padding: 15px 32px;
+  text-align: center;
+
+  border: none;
+  border-bottom: 4px solid rgb(0, 126, 0);
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: .5vw;
+  margin-top: 2vh;
+
+  cursor: pointer;
+  border-radius: .5em;
+
+  box-shadow: 0px 2px 4px 2px rgb(100, 100, 110);
+}
+
+#total-container {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 2vh;
+    text-shadow: 0px 1px 1px white;
+}
+
+#turn-container {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+.roll:hover {
+    background-color: rgb(0, 160, 100);
+    border-bottom: 4px solid rgb(0, 136, 0);
+    font-style: italic;
+}
+
+.bank:hover {
+    background-color: rgb(0, 160, 100);
+    border-bottom: 4px solid rgb(0, 136, 0);
+    font-style: italic;
+}
+
+.transparent{
+	/*For dice that are selected*/
+	opacity: 0.75;
+}
